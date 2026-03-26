@@ -3007,3 +3007,2065 @@
         "size_socre": 1
     }
 ]
+[
+    {
+        "name": "chrisfilo/to-bee-or-no-to-bee",
+        "score": 7.4
+    },
+    {
+        "name": "awsaf49/sonics-dataset",
+        "score": 6.4
+    },
+    {
+        "name": "jbraga/traditional-flute-dataset",
+        "score": 5.800000000000001
+    },
+    {
+        "name": "gray8ed/audio-dataset-of-low-flying-aircraft-aerosonicdb",
+        "score": 5.8
+    },
+    {
+        "name": "faresazzam/well-logs-dataset-for-machine-learning",
+        "score": 5.2
+    },
+    {
+        "name": "mahdialfred/multiple-well-logging-datasets",
+        "score": 5.2
+    },
+    {
+        "name": "fukmats/panasonicfloorplan",
+        "score": 5.199999999999999
+    },
+    {
+        "name": "mapoars/comfyui-sillytavern-pack-2",
+        "score": 5.199999999999999
+    },
+    {
+        "name": "suthaan/fetal-ultrasonic-images",
+        "score": 5.1000000000000005
+    },
+    {
+        "name": "ainiashiqinn/barber-county-well-log-dataset-kansas",
+        "score": 5.1
+    },
+    {
+        "name": "geometryconics/models-sonic",
+        "score": 5.0
+    },
+    {
+        "name": "clementmarie/sonicom-dataset",
+        "score": 5.0
+    },
+    {
+        "name": "resulalekberli/sonicom-compressed",
+        "score": 5.0
+    },
+    {
+        "name": "aliasadiasaas/dataset",
+        "score": 4.8999999999999995
+    },
+    {
+        "name": "daniyalatta/soniclens-multi-modal-scene-understanding-challeng",
+        "score": 4.8
+    },
+    {
+        "name": "riccardosimionato/compressor-and-overdrive-audio-effect-datasets",
+        "score": 4.7
+    },
+    {
+        "name": "YirongSun/SonicBench",
+        "score": 4.699999999999999
+    },
+    {
+        "name": "thebumpkin/10400-classic-hits-10-genres-1923-to-2023",
+        "score": 4.6000000000000005
+    },
+    {
+        "name": "abdelrahman444/sonic-dataset",
+        "score": 4.6
+    },
+    {
+        "name": "jafarsleman/auditory-brainstem-response-abr-dataset",
+        "score": 4.6
+    },
+    {
+        "name": "mapoars/comfyui-sillytavern-pack-3",
+        "score": 4.6
+    },
+    {
+        "name": "kanchana1990/hollywood-2025-media-hype-and-sentiment",
+        "score": 4.500000000000001
+    },
+    {
+        "name": "amaai-lab/SonicMasterDataset",
+        "score": 4.5
+    },
+    {
+        "name": "kanchana1990/spotify-datapopular-hip-hop-artists-and-tracks",
+        "score": 4.5
+    },
+    {
+        "name": "chmagik/sonicstaticdata",
+        "score": 4.499999999999999
+    },
+    {
+        "name": "thebumpkin/14400-classic-rock-tracks-with-spotify-data",
+        "score": 4.4
+    },
+    {
+        "name": "harvestwalukow/data-test",
+        "score": 4.4
+    },
+    {
+        "name": "clementmarie/sonicom-dataset-light",
+        "score": 4.3999999999999995
+    },
+    {
+        "name": "pedrodavidjuarez/ultrasonic-sensor-quality-inspection",
+        "score": 4.3999999999999995
+    },
+    {
+        "name": "sskkaz/panasonic-signate",
+        "score": 4.3999999999999995
+    },
+    {
+        "name": "chrispen/zanasonic",
+        "score": 4.3999999999999995
+    },
+    {
+        "name": "falahgatea/breast-cancer-ultrasonicinages",
+        "score": 4.299999999999999
+    },
+    {
+        "name": "thebumpkin/600-billboard-hot-100-tracks-with-spotify-data",
+        "score": 4.2
+    },
+    {
+        "name": "thebumpkin/spotify-top-100-country-9124-w-audio-features",
+        "score": 4.1000000000000005
+    },
+    {
+        "name": "sskkaz/panasonic-600px",
+        "score": 4.1
+    },
+    {
+        "name": "jeremycte/spotify-10000-songs-dataset",
+        "score": 4.000000000000001
+    },
+    {
+        "name": "vector-institute/sonic-o1",
+        "score": 4.0
+    },
+    {
+        "name": "satyasinghthakur/music-genre-classifier",
+        "score": 4.0
+    },
+    {
+        "name": "bvitos/electronic-music-features-202101-beatporttop100",
+        "score": 3.900000000000001
+    },
+    {
+        "name": "sonico1org/sonico1",
+        "score": 3.9000000000000004
+    },
+    {
+        "name": "saicourse/emotionlib-media-filter-dataset-extended-inter",
+        "score": 3.9000000000000004
+    },
+    {
+        "name": "techsalerator/sound-and-audio-data-in-cyprus",
+        "score": 3.8000000000000003
+    },
+    {
+        "name": "arcosoph/SonicWeave-v1",
+        "score": 3.8
+    },
+    {
+        "name": "willianoliveiragibin/spotify",
+        "score": 3.8
+    },
+    {
+        "name": "geometryconics/models-sonic-whisper-tiny",
+        "score": 3.8
+    },
+    {
+        "name": "geometryconics/models-sonic-rife",
+        "score": 3.8
+    },
+    {
+        "name": "sids04/ai-generated-psychology-participants-personality",
+        "score": 3.7
+    },
+    {
+        "name": "saicourse/emotionlib-mpaa-rating-dataset",
+        "score": 3.7
+    },
+    {
+        "name": "mmanojreddy2360815/panasonic-battery",
+        "score": 3.6
+    },
+    {
+        "name": "evilspirit05/sonic-wave-velocity-prediction",
+        "score": 3.6
+    },
+    {
+        "name": "ravigowda129/fetal-ultrasonic-images",
+        "score": 3.5999999999999996
+    },
+    {
+        "name": "sonicpayeng/mnnit-student-eeg-data",
+        "score": 3.5000000000000004
+    },
+    {
+        "name": "nikhilramank/prime-video-content-analytics",
+        "score": 3.4000000000000004
+    },
+    {
+        "name": "miracle0723/hsonic-re-dataset",
+        "score": 3.4
+    },
+    {
+        "name": "saicourse/emotionlib-media-filter-dataset",
+        "score": 3.2000000000000006
+    },
+    {
+        "name": "AiEson2/SonicGauss",
+        "score": 3.2
+    },
+    {
+        "name": "amirberenji/ultrasonic-flowmeter-diagnostics-data-set",
+        "score": 3.2
+    },
+    {
+        "name": "msathiyanarayanan/breastcancerultrasonicimages",
+        "score": 3.2
+    },
+    {
+        "name": "salmaellithy/ultrasonic-project",
+        "score": 3.2
+    },
+    {
+        "name": "awsaf49/sonics",
+        "score": 3.1000000000000005
+    },
+    {
+        "name": "pbabvey/panasonic",
+        "score": 3.1
+    },
+    {
+        "name": "ll2000/chinesepoems-lvshi-7y-tangplus",
+        "score": 3.1
+    },
+    {
+        "name": "thebumpkin/750-classic-punk-rock-tracks-with-spotify-data",
+        "score": 3.0
+    },
+    {
+        "name": "rajeevsinghsisodiya/hypersonic-technoloy-with-deep-learnings",
+        "score": 3.0
+    },
+    {
+        "name": "wallnuts/ncr18650b-panasonic-dataset",
+        "score": 3.0
+    },
+    {
+        "name": "farialmahmod/hypersonic-missile-military-weapon",
+        "score": 2.9000000000000004
+    },
+    {
+        "name": "manishkr1754/panasonic-employee-reviews-dataset",
+        "score": 2.8000000000000003
+    },
+    {
+        "name": "renshuddd/domain-ultrasonic-signal-dataset",
+        "score": 2.8000000000000003
+    },
+    {
+        "name": "shoaibmajid/chemical-injection-and-ultasonic-training-data",
+        "score": 2.8000000000000003
+    },
+    {
+        "name": "sonicmist/fs",
+        "score": 2.8
+    },
+    {
+        "name": "sonicmist/kc",
+        "score": 2.8
+    },
+    {
+        "name": "sonicmist/vg",
+        "score": 2.8
+    },
+    {
+        "name": "sonicmist/lu",
+        "score": 2.8
+    },
+    {
+        "name": "sonicmist/yv",
+        "score": 2.8
+    },
+    {
+        "name": "averium515/tails-dialogue",
+        "score": 2.6000000000000005
+    },
+    {
+        "name": "freederiaresearch/title-f66ce0",
+        "score": 2.5000000000000004
+    },
+    {
+        "name": "komangindra/ultrasonic-parking-sensor-data",
+        "score": 2.4000000000000004
+    },
+    {
+        "name": "kaiw7/V2A-Sonic",
+        "score": 2.4
+    },
+    {
+        "name": "thebumpkin/1960s-classic-hits-with-spotify-data",
+        "score": 2.3000000000000003
+    },
+    {
+        "name": "freederiaresearch/real-time-ultrasonic-field-mapping-and-adaptive-fo",
+        "score": 2.3000000000000003
+    },
+    {
+        "name": "jon369/universal-english-ultramegacompact",
+        "score": 2.2
+    },
+    {
+        "name": "thebumpkin/twisted-sister-studio-tracks-with-spotify-data",
+        "score": 2.2
+    },
+    {
+        "name": "thebumpkin/500-folk-tracks-with-spotify-data",
+        "score": 2.2
+    },
+    {
+        "name": "audioloops/sample-pack-download-ultra-techno-drum-kits",
+        "score": 2.2
+    },
+    {
+        "name": "pixelfest/sonic-satam-random",
+        "score": 2.1
+    },
+    {
+        "name": "aslanovmustafa/gw-masonic-correspondence",
+        "score": 2.1
+    },
+    {
+        "name": "rojaunazalfatthoriq/ultrasonic-flowmeter",
+        "score": 2.1
+    },
+    {
+        "name": "sonicsets-data/Stems-Evaluation-Kit",
+        "score": 2.0
+    },
+    {
+        "name": "caim33/SONIC-263",
+        "score": 2.0
+    },
+    {
+        "name": "vural2123/sonicx-data",
+        "score": 1.8
+    },
+    {
+        "name": "xmssjzs/sonic_data",
+        "score": 1.8
+    },
+    {
+        "name": "DeepFense/SONICS",
+        "score": 1.8
+    },
+    {
+        "name": "sleeping-ai/Human-fakebench-SONIC",
+        "score": 1.6
+    },
+    {
+        "name": "sleeping-ai/SONICS-Humanfakebench",
+        "score": 1.6
+    },
+    {
+        "name": "sleeping-ai/Human-fakebench-judgment-sonic",
+        "score": 1.6
+    },
+    {
+        "name": "sonichya/items_raw_full",
+        "score": 1.5
+    },
+    {
+        "name": "sonichya/items_raw_lite",
+        "score": 1.5
+    },
+    {
+        "name": "sonichya/items_lite",
+        "score": 1.5
+    },
+    {
+        "name": "Evan0226/Sonic",
+        "score": 1.4999999999999998
+    },
+    {
+        "name": "theangelstudio/Sonic",
+        "score": 1.4999999999999998
+    },
+    {
+        "name": "anecdotedb/ComfyUI_Sonic_dataset_sonic",
+        "score": 1.4
+    },
+    {
+        "name": "brunobruno66000/sonic-ai-mirror",
+        "score": 1.3000000000000003
+    },
+    {
+        "name": "kiemtien/sonic",
+        "score": 1.3000000000000003
+    },
+    {
+        "name": "JusperLee/SonicSet-v2",
+        "score": 1.2999999999999998
+    },
+    {
+        "name": "AndyyyUR/SonicDreamcastEra",
+        "score": 1.2
+    },
+    {
+        "name": "Alltitude/Sonic",
+        "score": 1.2
+    },
+    {
+        "name": "AndyyyUR/SonicDarkAGe",
+        "score": 1.2
+    },
+    {
+        "name": "Sonic2FR/MODS",
+        "score": 1.2
+    },
+    {
+        "name": "sonic222/Egyptian_hieroglyphics-data",
+        "score": 1.1
+    },
+    {
+        "name": "DjdjddjsjsjHdj/Sonic",
+        "score": 1.1
+    },
+    {
+        "name": "thesstefan/sonic",
+        "score": 1.1
+    },
+    {
+        "name": "anecdotedb/ComfyUI_Sonic_dataset_checkpoints",
+        "score": 1.1
+    },
+    {
+        "name": "Sonic2FR/APPS",
+        "score": 0.9
+    },
+    {
+        "name": "GaboChoropan/Sonic",
+        "score": 0.9
+    },
+    {
+        "name": "Sonic2FR/sonic-adventure-x2",
+        "score": 0.9
+    },
+    {
+        "name": "Marcis/Fleetway_Super_Sonic",
+        "score": 0.9
+    },
+    {
+        "name": "Sonic2FR/APPS-PY",
+        "score": 0.9
+    },
+    {
+        "name": "AndyyyUR/Sonic_Backup",
+        "score": 0.9
+    },
+    {
+        "name": "AndyyyUR/Sonic_the_Hedgehog_AI",
+        "score": 0.9
+    },
+    {
+        "name": "mestre-das-ias-br/Sonic-Prime-Models",
+        "score": 0.9
+    },
+    {
+        "name": "LoganLeis/SonicRivals",
+        "score": 0.9
+    },
+    {
+        "name": "Marcis/fleetwal-sonic",
+        "score": 0.9
+    },
+    {
+        "name": "Marcis/sonic",
+        "score": 0.9
+    },
+    {
+        "name": "Marcis/sonic-exe",
+        "score": 0.9
+    },
+    {
+        "name": "hayden-donnelly/sonic-nerf",
+        "score": 0.9
+    },
+    {
+        "name": "AndyyyUR/Sonic",
+        "score": 0.9
+    },
+    {
+        "name": "LiaSky94/Sonic",
+        "score": 0.9
+    },
+    {
+        "name": "Marcis/Nine_Sonic_Prime",
+        "score": 0.9
+    },
+    {
+        "name": "Violet58/sonic-dataset",
+        "score": 0.9
+    },
+    {
+        "name": "Marcis/Sonic-prime-nine",
+        "score": 0.9
+    },
+    {
+        "name": "Marcis/sonictestmodel",
+        "score": 0.9
+    },
+    {
+        "name": "Marcis/faker-sonic",
+        "score": 0.9
+    },
+    {
+        "name": "Nicollas563/Sonic_Boom",
+        "score": 0.9
+    },
+    {
+        "name": "kuoramwoyo/Sonic.exe",
+        "score": 0.9
+    },
+    {
+        "name": "Matheus30cs/Sonic",
+        "score": 0.9
+    },
+    {
+        "name": "LoadFloof/Sonic_X_Wiki_dataset_-_character_tags_only",
+        "score": 0.8999999999999999
+    },
+    {
+        "name": "sonicpierre/Rick-bot-flags",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "feliperafael/human-demos-sonic-the-hedgehog",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "raiderkkkkkkkkk/sonicmoderno",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "SonicXtreme99/MikeySimonKappaMikey",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "SonicXtreme99/MikeySimon_Finished",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "Matheus30cs/SonicFleetway",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "sonicgame/llama2_dataset_test_01",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "AndyyyUR/Sonic_DC_v2",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "AndyyyUR/Sonic_Dreamcast_Era_2000",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "sonicgame/llama2_dataset_test",
+        "score": 0.7999999999999999
+    },
+    {
+        "name": "AndyyyUR/SonicAI",
+        "score": 0.7999999999999999
+    }
+][
+    {
+        "name": "awsaf49/sonics-dataset",
+        "score": 6.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "YirongSun/SonicBench",
+        "score": 5.499999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "amaai-lab/SonicMasterDataset",
+        "score": 5.1000000000000005,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "chrisfilo/to-bee-or-no-to-bee",
+        "score": 4.699999999999999,
+        "from": "Kaggle"
+    },
+    {
+        "name": "abdelrahman444/sonic-dataset",
+        "score": 4.6499999999999995,
+        "from": "Kaggle"
+    },
+    {
+        "name": "vector-institute/sonic-o1",
+        "score": 4.4,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonico1org/sonico1",
+        "score": 4.3500000000000005,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "awsaf49/sonics",
+        "score": 4.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "gray8ed/audio-dataset-of-low-flying-aircraft-aerosonicdb",
+        "score": 3.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "mapoars/comfyui-sillytavern-pack-2",
+        "score": 3.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "fukmats/panasonicfloorplan",
+        "score": 3.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "jbraga/traditional-flute-dataset",
+        "score": 3.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "mahdialfred/multiple-well-logging-datasets",
+        "score": 3.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "ainiashiqinn/barber-county-well-log-dataset-kansas",
+        "score": 3.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "geometryconics/models-sonic",
+        "score": 3.45,
+        "from": "Kaggle"
+    },
+    {
+        "name": "suthaan/fetal-ultrasonic-images",
+        "score": 3.4000000000000004,
+        "from": "Kaggle"
+    },
+    {
+        "name": "daniyalatta/soniclens-multi-modal-scene-understanding-challeng",
+        "score": 3.35,
+        "from": "Kaggle"
+    },
+    {
+        "name": "aliasadiasaas/dataset",
+        "score": 3.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "clementmarie/sonicom-dataset",
+        "score": 3.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "resulalekberli/sonicom-compressed",
+        "score": 3.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "mapoars/comfyui-sillytavern-pack-3",
+        "score": 3.15,
+        "from": "Kaggle"
+    },
+    {
+        "name": "faresazzam/well-logs-dataset-for-machine-learning",
+        "score": 3.1,
+        "from": "Kaggle"
+    },
+    {
+        "name": "riccardosimionato/compressor-and-overdrive-audio-effect-datasets",
+        "score": 3.0500000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "chmagik/sonicstaticdata",
+        "score": 2.95,
+        "from": "Kaggle"
+    },
+    {
+        "name": "harvestwalukow/data-test",
+        "score": 2.95,
+        "from": "Kaggle"
+    },
+    {
+        "name": "clementmarie/sonicom-dataset-light",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "pedrodavidjuarez/ultrasonic-sensor-quality-inspection",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "jafarsleman/auditory-brainstem-response-abr-dataset",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sskkaz/panasonic-signate",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "chrispen/zanasonic",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "falahgatea/breast-cancer-ultrasonicinages",
+        "score": 2.7,
+        "from": "Kaggle"
+    },
+    {
+        "name": "kanchana1990/spotify-datapopular-hip-hop-artists-and-tracks",
+        "score": 2.6500000000000004,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/10400-classic-hits-10-genres-1923-to-2023",
+        "score": 2.6,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/14400-classic-rock-tracks-with-spotify-data",
+        "score": 2.6,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sskkaz/panasonic-600px",
+        "score": 2.5500000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "kanchana1990/hollywood-2025-media-hype-and-sentiment",
+        "score": 2.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "satyasinghthakur/music-genre-classifier",
+        "score": 2.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sonicmist/fs",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicmist/kc",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicmist/vg",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicmist/lu",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicmist/yv",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "arcosoph/SonicWeave-v1",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "geometryconics/models-sonic-whisper-tiny",
+        "score": 2.45,
+        "from": "Kaggle"
+    },
+    {
+        "name": "geometryconics/models-sonic-rife",
+        "score": 2.45,
+        "from": "Kaggle"
+    },
+    {
+        "name": "saicourse/emotionlib-media-filter-dataset-extended-inter",
+        "score": 2.45,
+        "from": "Kaggle"
+    },
+    {
+        "name": "jeremycte/spotify-10000-songs-dataset",
+        "score": 2.4000000000000004,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/600-billboard-hot-100-tracks-with-spotify-data",
+        "score": 2.35,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/spotify-top-100-country-9124-w-audio-features",
+        "score": 2.35,
+        "from": "Kaggle"
+    },
+    {
+        "name": "mmanojreddy2360815/panasonic-battery",
+        "score": 2.35,
+        "from": "Kaggle"
+    },
+    {
+        "name": "bvitos/electronic-music-features-202101-beatporttop100",
+        "score": 2.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "techsalerator/sound-and-audio-data-in-cyprus",
+        "score": 2.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "ravigowda129/fetal-ultrasonic-images",
+        "score": 2.25,
+        "from": "Kaggle"
+    },
+    {
+        "name": "saicourse/emotionlib-mpaa-rating-dataset",
+        "score": 2.25,
+        "from": "Kaggle"
+    },
+    {
+        "name": "kaiw7/V2A-Sonic",
+        "score": 2.15,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicpayeng/mnnit-student-eeg-data",
+        "score": 2.1,
+        "from": "Kaggle"
+    },
+    {
+        "name": "evilspirit05/sonic-wave-velocity-prediction",
+        "score": 2.1,
+        "from": "Kaggle"
+    },
+    {
+        "name": "miracle0723/hsonic-re-dataset",
+        "score": 2.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sids04/ai-generated-psychology-participants-personality",
+        "score": 2.0,
+        "from": "Kaggle"
+    },
+    {
+        "name": "nikhilramank/prime-video-content-analytics",
+        "score": 2.0,
+        "from": "Kaggle"
+    },
+    {
+        "name": "AiEson2/SonicGauss",
+        "score": 1.9500000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "msathiyanarayanan/breastcancerultrasonicimages",
+        "score": 1.9500000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "salmaellithy/ultrasonic-project",
+        "score": 1.9500000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sonicsets-data/Stems-Evaluation-Kit",
+        "score": 1.85,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "caim33/SONIC-263",
+        "score": 1.85,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "pbabvey/panasonic",
+        "score": 1.8,
+        "from": "Kaggle"
+    },
+    {
+        "name": "ll2000/chinesepoems-lvshi-7y-tangplus",
+        "score": 1.8,
+        "from": "Kaggle"
+    },
+    {
+        "name": "saicourse/emotionlib-media-filter-dataset",
+        "score": 1.8,
+        "from": "Kaggle"
+    },
+    {
+        "name": "willianoliveiragibin/spotify",
+        "score": 1.75,
+        "from": "Kaggle"
+    },
+    {
+        "name": "rajeevsinghsisodiya/hypersonic-technoloy-with-deep-learnings",
+        "score": 1.7000000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "wallnuts/ncr18650b-panasonic-dataset",
+        "score": 1.7000000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "vural2123/sonicx-data",
+        "score": 1.6500000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "xmssjzs/sonic_data",
+        "score": 1.6500000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "DeepFense/SONICS",
+        "score": 1.6500000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "renshuddd/domain-ultrasonic-signal-dataset",
+        "score": 1.6500000000000001,
+        "from": "Kaggle"
+    },
+    {
+        "name": "amirberenji/ultrasonic-flowmeter-diagnostics-data-set",
+        "score": 1.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/750-classic-punk-rock-tracks-with-spotify-data",
+        "score": 1.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "farialmahmod/hypersonic-missile-military-weapon",
+        "score": 1.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "manishkr1754/panasonic-employee-reviews-dataset",
+        "score": 1.55,
+        "from": "Kaggle"
+    },
+    {
+        "name": "shoaibmajid/chemical-injection-and-ultasonic-training-data",
+        "score": 1.55,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sleeping-ai/Human-fakebench-SONIC",
+        "score": 1.4500000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sleeping-ai/SONICS-Humanfakebench",
+        "score": 1.4500000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sleeping-ai/Human-fakebench-judgment-sonic",
+        "score": 1.4500000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonichya/items_raw_full",
+        "score": 1.4000000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonichya/items_raw_lite",
+        "score": 1.4000000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonichya/items_lite",
+        "score": 1.4000000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "freederiaresearch/title-f66ce0",
+        "score": 1.4000000000000001,
+        "from": "Kaggle"
+    },
+    {
+        "name": "Evan0226/Sonic",
+        "score": 1.3499999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "theangelstudio/Sonic",
+        "score": 1.3499999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "averium515/tails-dialogue",
+        "score": 1.3,
+        "from": "Kaggle"
+    },
+    {
+        "name": "anecdotedb/ComfyUI_Sonic_dataset_sonic",
+        "score": 1.25,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "komangindra/ultrasonic-parking-sensor-data",
+        "score": 1.25,
+        "from": "Kaggle"
+    },
+    {
+        "name": "brunobruno66000/sonic-ai-mirror",
+        "score": 1.2000000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "kiemtien/sonic",
+        "score": 1.2000000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "freederiaresearch/real-time-ultrasonic-field-mapping-and-adaptive-fo",
+        "score": 1.2000000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "JusperLee/SonicSet-v2",
+        "score": 1.15,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "thebumpkin/1960s-classic-hits-with-spotify-data",
+        "score": 1.15,
+        "from": "Kaggle"
+    },
+    {
+        "name": "AndyyyUR/SonicDreamcastEra",
+        "score": 1.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Alltitude/Sonic",
+        "score": 1.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/SonicDarkAGe",
+        "score": 1.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Sonic2FR/MODS",
+        "score": 1.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "jon369/universal-english-ultramegacompact",
+        "score": 1.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/twisted-sister-studio-tracks-with-spotify-data",
+        "score": 1.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/500-folk-tracks-with-spotify-data",
+        "score": 1.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "audioloops/sample-pack-download-ultra-techno-drum-kits",
+        "score": 1.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sonic222/Egyptian_hieroglyphics-data",
+        "score": 1.0,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "DjdjddjsjsjHdj/Sonic",
+        "score": 1.0,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "thesstefan/sonic",
+        "score": 1.0,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "anecdotedb/ComfyUI_Sonic_dataset_checkpoints",
+        "score": 1.0,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "rojaunazalfatthoriq/ultrasonic-flowmeter",
+        "score": 1.0,
+        "from": "Kaggle"
+    },
+    {
+        "name": "pixelfest/sonic-satam-random",
+        "score": 0.95,
+        "from": "Kaggle"
+    },
+    {
+        "name": "aslanovmustafa/gw-masonic-correspondence",
+        "score": 0.95,
+        "from": "Kaggle"
+    },
+    {
+        "name": "LoadFloof/Sonic_X_Wiki_dataset_-_character_tags_only",
+        "score": 0.8,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Sonic2FR/APPS",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "GaboChoropan/Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Sonic2FR/sonic-adventure-x2",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/Fleetway_Super_Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Sonic2FR/APPS-PY",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic_Backup",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic_the_Hedgehog_AI",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "mestre-das-ias-br/Sonic-Prime-Models",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "LoganLeis/SonicRivals",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/fleetwal-sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/sonic-exe",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "hayden-donnelly/sonic-nerf",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "LiaSky94/Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/Nine_Sonic_Prime",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Violet58/sonic-dataset",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/Sonic-prime-nine",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/sonictestmodel",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/faker-sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Nicollas563/Sonic_Boom",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "kuoramwoyo/Sonic.exe",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Matheus30cs/Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicpierre/Rick-bot-flags",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "feliperafael/human-demos-sonic-the-hedgehog",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "raiderkkkkkkkkk/sonicmoderno",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "SonicXtreme99/MikeySimonKappaMikey",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "SonicXtreme99/MikeySimon_Finished",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Matheus30cs/SonicFleetway",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicgame/llama2_dataset_test_01",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic_DC_v2",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic_Dreamcast_Era_2000",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicgame/llama2_dataset_test",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/SonicAI",
+        "score": 0.7,
+        "from": "Hugging Face"
+    }
+][
+    {
+        "name": "awsaf49/sonics-dataset",
+        "score": 6.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "YirongSun/SonicBench",
+        "score": 5.499999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "amaai-lab/SonicMasterDataset",
+        "score": 5.1000000000000005,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "abdelrahman444/sonic-dataset",
+        "score": 5.1,
+        "from": "Kaggle"
+    },
+    {
+        "name": "resulalekberli/sonicom-compressed",
+        "score": 5.1,
+        "from": "Kaggle"
+    },
+    {
+        "name": "geometryconics/models-sonic",
+        "score": 4.949999999999999,
+        "from": "Kaggle"
+    },
+    {
+        "name": "chrisfilo/to-bee-or-no-to-bee",
+        "score": 4.699999999999999,
+        "from": "Kaggle"
+    },
+    {
+        "name": "vector-institute/sonic-o1",
+        "score": 4.55,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonico1org/sonico1",
+        "score": 4.5,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "clementmarie/sonicom-dataset-light",
+        "score": 4.45,
+        "from": "Kaggle"
+    },
+    {
+        "name": "awsaf49/sonics",
+        "score": 4.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "gray8ed/audio-dataset-of-low-flying-aircraft-aerosonicdb",
+        "score": 3.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "mapoars/comfyui-sillytavern-pack-2",
+        "score": 3.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "fukmats/panasonicfloorplan",
+        "score": 3.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "jbraga/traditional-flute-dataset",
+        "score": 3.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "mahdialfred/multiple-well-logging-datasets",
+        "score": 3.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "ainiashiqinn/barber-county-well-log-dataset-kansas",
+        "score": 3.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "suthaan/fetal-ultrasonic-images",
+        "score": 3.4000000000000004,
+        "from": "Kaggle"
+    },
+    {
+        "name": "daniyalatta/soniclens-multi-modal-scene-understanding-challeng",
+        "score": 3.35,
+        "from": "Kaggle"
+    },
+    {
+        "name": "aliasadiasaas/dataset",
+        "score": 3.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "clementmarie/sonicom-dataset",
+        "score": 3.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "mapoars/comfyui-sillytavern-pack-3",
+        "score": 3.15,
+        "from": "Kaggle"
+    },
+    {
+        "name": "faresazzam/well-logs-dataset-for-machine-learning",
+        "score": 3.1,
+        "from": "Kaggle"
+    },
+    {
+        "name": "riccardosimionato/compressor-and-overdrive-audio-effect-datasets",
+        "score": 3.0500000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "chmagik/sonicstaticdata",
+        "score": 2.95,
+        "from": "Kaggle"
+    },
+    {
+        "name": "harvestwalukow/data-test",
+        "score": 2.95,
+        "from": "Kaggle"
+    },
+    {
+        "name": "pedrodavidjuarez/ultrasonic-sensor-quality-inspection",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "jafarsleman/auditory-brainstem-response-abr-dataset",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sskkaz/panasonic-signate",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "chrispen/zanasonic",
+        "score": 2.8000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "falahgatea/breast-cancer-ultrasonicinages",
+        "score": 2.7,
+        "from": "Kaggle"
+    },
+    {
+        "name": "kanchana1990/spotify-datapopular-hip-hop-artists-and-tracks",
+        "score": 2.6500000000000004,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/10400-classic-hits-10-genres-1923-to-2023",
+        "score": 2.6,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/14400-classic-rock-tracks-with-spotify-data",
+        "score": 2.6,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sskkaz/panasonic-600px",
+        "score": 2.5500000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "kanchana1990/hollywood-2025-media-hype-and-sentiment",
+        "score": 2.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "satyasinghthakur/music-genre-classifier",
+        "score": 2.5,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sonicmist/fs",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicmist/kc",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicmist/vg",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicmist/lu",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicmist/yv",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "arcosoph/SonicWeave-v1",
+        "score": 2.45,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "geometryconics/models-sonic-whisper-tiny",
+        "score": 2.45,
+        "from": "Kaggle"
+    },
+    {
+        "name": "geometryconics/models-sonic-rife",
+        "score": 2.45,
+        "from": "Kaggle"
+    },
+    {
+        "name": "saicourse/emotionlib-media-filter-dataset-extended-inter",
+        "score": 2.45,
+        "from": "Kaggle"
+    },
+    {
+        "name": "jeremycte/spotify-10000-songs-dataset",
+        "score": 2.4000000000000004,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/600-billboard-hot-100-tracks-with-spotify-data",
+        "score": 2.35,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/spotify-top-100-country-9124-w-audio-features",
+        "score": 2.35,
+        "from": "Kaggle"
+    },
+    {
+        "name": "mmanojreddy2360815/panasonic-battery",
+        "score": 2.35,
+        "from": "Kaggle"
+    },
+    {
+        "name": "bvitos/electronic-music-features-202101-beatporttop100",
+        "score": 2.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "techsalerator/sound-and-audio-data-in-cyprus",
+        "score": 2.3000000000000003,
+        "from": "Kaggle"
+    },
+    {
+        "name": "ravigowda129/fetal-ultrasonic-images",
+        "score": 2.25,
+        "from": "Kaggle"
+    },
+    {
+        "name": "saicourse/emotionlib-mpaa-rating-dataset",
+        "score": 2.25,
+        "from": "Kaggle"
+    },
+    {
+        "name": "kaiw7/V2A-Sonic",
+        "score": 2.15,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicpayeng/mnnit-student-eeg-data",
+        "score": 2.1,
+        "from": "Kaggle"
+    },
+    {
+        "name": "evilspirit05/sonic-wave-velocity-prediction",
+        "score": 2.1,
+        "from": "Kaggle"
+    },
+    {
+        "name": "miracle0723/hsonic-re-dataset",
+        "score": 2.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sids04/ai-generated-psychology-participants-personality",
+        "score": 2.0,
+        "from": "Kaggle"
+    },
+    {
+        "name": "nikhilramank/prime-video-content-analytics",
+        "score": 2.0,
+        "from": "Kaggle"
+    },
+    {
+        "name": "AiEson2/SonicGauss",
+        "score": 1.9500000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "msathiyanarayanan/breastcancerultrasonicimages",
+        "score": 1.9500000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "salmaellithy/ultrasonic-project",
+        "score": 1.9500000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sonicsets-data/Stems-Evaluation-Kit",
+        "score": 1.85,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "caim33/SONIC-263",
+        "score": 1.85,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "pbabvey/panasonic",
+        "score": 1.8,
+        "from": "Kaggle"
+    },
+    {
+        "name": "ll2000/chinesepoems-lvshi-7y-tangplus",
+        "score": 1.8,
+        "from": "Kaggle"
+    },
+    {
+        "name": "saicourse/emotionlib-media-filter-dataset",
+        "score": 1.8,
+        "from": "Kaggle"
+    },
+    {
+        "name": "willianoliveiragibin/spotify",
+        "score": 1.75,
+        "from": "Kaggle"
+    },
+    {
+        "name": "rajeevsinghsisodiya/hypersonic-technoloy-with-deep-learnings",
+        "score": 1.7000000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "wallnuts/ncr18650b-panasonic-dataset",
+        "score": 1.7000000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "vural2123/sonicx-data",
+        "score": 1.6500000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "xmssjzs/sonic_data",
+        "score": 1.6500000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "DeepFense/SONICS",
+        "score": 1.6500000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "renshuddd/domain-ultrasonic-signal-dataset",
+        "score": 1.6500000000000001,
+        "from": "Kaggle"
+    },
+    {
+        "name": "amirberenji/ultrasonic-flowmeter-diagnostics-data-set",
+        "score": 1.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/750-classic-punk-rock-tracks-with-spotify-data",
+        "score": 1.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "farialmahmod/hypersonic-missile-military-weapon",
+        "score": 1.65,
+        "from": "Kaggle"
+    },
+    {
+        "name": "manishkr1754/panasonic-employee-reviews-dataset",
+        "score": 1.55,
+        "from": "Kaggle"
+    },
+    {
+        "name": "shoaibmajid/chemical-injection-and-ultasonic-training-data",
+        "score": 1.55,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sleeping-ai/Human-fakebench-SONIC",
+        "score": 1.4500000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sleeping-ai/SONICS-Humanfakebench",
+        "score": 1.4500000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sleeping-ai/Human-fakebench-judgment-sonic",
+        "score": 1.4500000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonichya/items_raw_full",
+        "score": 1.4000000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonichya/items_raw_lite",
+        "score": 1.4000000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonichya/items_lite",
+        "score": 1.4000000000000001,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "freederiaresearch/title-f66ce0",
+        "score": 1.4000000000000001,
+        "from": "Kaggle"
+    },
+    {
+        "name": "Evan0226/Sonic",
+        "score": 1.3499999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "theangelstudio/Sonic",
+        "score": 1.3499999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "averium515/tails-dialogue",
+        "score": 1.3,
+        "from": "Kaggle"
+    },
+    {
+        "name": "anecdotedb/ComfyUI_Sonic_dataset_sonic",
+        "score": 1.25,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "komangindra/ultrasonic-parking-sensor-data",
+        "score": 1.25,
+        "from": "Kaggle"
+    },
+    {
+        "name": "brunobruno66000/sonic-ai-mirror",
+        "score": 1.2000000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "kiemtien/sonic",
+        "score": 1.2000000000000002,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "freederiaresearch/real-time-ultrasonic-field-mapping-and-adaptive-fo",
+        "score": 1.2000000000000002,
+        "from": "Kaggle"
+    },
+    {
+        "name": "JusperLee/SonicSet-v2",
+        "score": 1.15,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "thebumpkin/1960s-classic-hits-with-spotify-data",
+        "score": 1.15,
+        "from": "Kaggle"
+    },
+    {
+        "name": "AndyyyUR/SonicDreamcastEra",
+        "score": 1.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Alltitude/Sonic",
+        "score": 1.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/SonicDarkAGe",
+        "score": 1.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Sonic2FR/MODS",
+        "score": 1.05,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "jon369/universal-english-ultramegacompact",
+        "score": 1.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/twisted-sister-studio-tracks-with-spotify-data",
+        "score": 1.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "thebumpkin/500-folk-tracks-with-spotify-data",
+        "score": 1.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "audioloops/sample-pack-download-ultra-techno-drum-kits",
+        "score": 1.05,
+        "from": "Kaggle"
+    },
+    {
+        "name": "sonic222/Egyptian_hieroglyphics-data",
+        "score": 1.0,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "DjdjddjsjsjHdj/Sonic",
+        "score": 1.0,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "thesstefan/sonic",
+        "score": 1.0,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "anecdotedb/ComfyUI_Sonic_dataset_checkpoints",
+        "score": 1.0,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "rojaunazalfatthoriq/ultrasonic-flowmeter",
+        "score": 1.0,
+        "from": "Kaggle"
+    },
+    {
+        "name": "pixelfest/sonic-satam-random",
+        "score": 0.95,
+        "from": "Kaggle"
+    },
+    {
+        "name": "aslanovmustafa/gw-masonic-correspondence",
+        "score": 0.95,
+        "from": "Kaggle"
+    },
+    {
+        "name": "LoadFloof/Sonic_X_Wiki_dataset_-_character_tags_only",
+        "score": 0.8,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Sonic2FR/APPS",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "GaboChoropan/Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Sonic2FR/sonic-adventure-x2",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/Fleetway_Super_Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Sonic2FR/APPS-PY",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic_Backup",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic_the_Hedgehog_AI",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "mestre-das-ias-br/Sonic-Prime-Models",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "LoganLeis/SonicRivals",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/fleetwal-sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/sonic-exe",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "hayden-donnelly/sonic-nerf",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "LiaSky94/Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/Nine_Sonic_Prime",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Violet58/sonic-dataset",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/Sonic-prime-nine",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/sonictestmodel",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Marcis/faker-sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Nicollas563/Sonic_Boom",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "kuoramwoyo/Sonic.exe",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Matheus30cs/Sonic",
+        "score": 0.7999999999999999,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicpierre/Rick-bot-flags",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "feliperafael/human-demos-sonic-the-hedgehog",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "raiderkkkkkkkkk/sonicmoderno",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "SonicXtreme99/MikeySimonKappaMikey",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "SonicXtreme99/MikeySimon_Finished",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "Matheus30cs/SonicFleetway",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicgame/llama2_dataset_test_01",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic_DC_v2",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/Sonic_Dreamcast_Era_2000",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "sonicgame/llama2_dataset_test",
+        "score": 0.7,
+        "from": "Hugging Face"
+    },
+    {
+        "name": "AndyyyUR/SonicAI",
+        "score": 0.7,
+        "from": "Hugging Face"
+    }
+]

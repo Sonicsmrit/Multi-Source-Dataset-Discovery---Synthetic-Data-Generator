@@ -55,25 +55,24 @@ class search():
 
         huggingface_results, kaggle_results = await asyncio.gather(asyncio.to_thread(self.search_huggingface, query=f"{dataset}"), asyncio.to_thread(self.search_kaggle, query=f"{dataset}"))
 
-        return huggingface_results, kaggle_results
+        return huggingface_results, kaggle_results, dataset
 
 
 
 
 
 def scoring():
+
     json_data_for_ai = []
     score_all = []
-    hugging_data, kaggle_data  = asyncio.run(search().search_datasets())
+    final_score = []
+    hugging_data, kaggle_data, search_query = asyncio.run(search().search_datasets())
 
     for hugs in hugging_data:
         json_data_for_ai.append({
             "from": "hugging face",
             "name": hugs.id,
             "downloads": hugs.downloads,
-            "links": hugs.likes,
-            "recent modification": hugs.last_modified,
-            "size": next((t.split(":")[1] for t in hugs.tags if t.startswith("size_categories:")), str(None)) + "rows"
         })
     
     for kag in kaggle_data:
@@ -82,10 +81,6 @@ def scoring():
                 "from": "kaggle",
                 "name": kag.ref,
                 "downloads": kag.download_count,
-                "likes": kag.vote_count,
-                "size": str(kag.total_bytes) + " total bytes",
-                "recent modification": kag.last_updated
-
             }
         )
 
@@ -96,12 +91,11 @@ def scoring():
             "role":"user",
 
             "content": f"""
-                You are a dataset quality evaluator. Rate the following datasets on quality out of 10.
+                You are a dataset quality and relevance evaluator. Rate the following datasets out of 10.
 
                 Consider:
-                - How large the dataset is (more data = better)
+                - How relevant the dataset is to the search query: "{search_query}" (most important)
                 - How many downloads and likes it has (popularity = quality signal)
-                - How recently it was updated (newer = better)
                 - Name clarity (does the name tell you what the dataset contains)
                 - Source credibility: HuggingFace likes and Kaggle votes are both popularity signals,
                 but Kaggle votes tend to be inflated so weight them slightly less than HuggingFace likes
@@ -110,10 +104,12 @@ def scoring():
 
                 Example format:
                 {formats}
-                
+
+                Search Query: "{search_query}"
 
                 Datasets:
                 {json.dumps(json_data_for_ai, indent=2, default=str)}
+
                 """
         }
             
@@ -122,7 +118,13 @@ def scoring():
         max_tokens=8192
     )
 
-    ai_socres = json.loads(chat_completion.choices[0].message.content)
+
+    raw_ai_output = chat_completion.choices[0].message.content
+    try:
+        ai_socres = json.loads(raw_ai_output)
+
+    except json.JSONDecodeError:
+        ai_socres = []
 
     score_downloads = lambda d: 10 if d >= 100000 else 8 if d >= 10000 else 6 if d >= 1000 else 4 if d >= 100 else 2 if d >= 10 else 1
 
@@ -136,13 +138,14 @@ def scoring():
     score_size_kaggle = lambda b: 10 if b >= 1_000_000_000 else 8 if b >= 100_000_000 else 6 if b >= 10_000_000 else 4 if b >= 1_000_000 else 2 if b >= 100_000 else 1
 
 
-    final_score = lambda downloads, likes, recency, size, ai: downloads * 0.3 + ai * 0.2 + size * 0.3 + recency * 0.1 + likes * 0.1
+    final_score_calc = lambda downloads, likes, recency, size, ai: (downloads * 0.35 + size * 0.35 + recency * 0.15 + likes * 0.15 if ai == 0 else downloads * 0.25 + ai * 0.3 + size * 0.25 + recency * 0.1 + likes * 0.1)
 
     for hugs in hugging_data:
         score_all.append(
-            {
+            {   
+                "from": "Hugging Face",
                 "name": hugs.id,
-                "ai score": next((score["score"] for score in ai_socres if score["name"] == hugs.id), 0),
+                "ai score": next((float(score["score"]) for score in ai_socres if score["name"] == hugs.id), 0),
                 "downloads_score": score_downloads(hugs.downloads),
                 "likes_score": score_likes(hugs.likes),
                 "recent_score": score_recency((datetime.now(timezone.utc) - hugs.last_modified).days),
@@ -154,8 +157,9 @@ def scoring():
     for kag in kaggle_data:
         score_all.append(
             {
+                "from": "Kaggle",
                 "name": kag.ref,
-                "ai score": next((score["score"] for score in ai_socres if score["name"] == kag.ref), 0),
+                "ai score": next((float(score["score"]) for score in ai_socres if score["name"] == kag.ref), 0),
                 "downloads_score": score_downloads(kag.download_count),
                 "likes_score": score_likes(kag.vote_count),
                 "recent_score": score_recency((datetime.now(timezone.utc) - kag.last_updated.replace(tzinfo=timezone.utc)).days),
@@ -163,10 +167,16 @@ def scoring():
             }
         )
 
+    for score in score_all:
+        final_score.append(
+            {
+                "name": score["name"],
+                "score": final_score_calc(score["downloads_score"], score["likes_score"], score["recent_score"], score["size_socre"], score["ai score"]),
+                "from": score["from"]
+            }
+            )
+        
     
+    score_result = sorted(final_score, key=lambda x: x["score"], reverse=True)
 
-
-
-
-
-scoring()
+    return score_result, search_query

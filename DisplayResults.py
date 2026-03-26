@@ -1,0 +1,189 @@
+import json, time, os, sys, re
+os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+from CLI import *
+from datasets import load_dataset
+import datasets, logging
+from rich.console import Console
+from rich.panel import Panel
+from rich.table import Table
+from rich.prompt import Prompt
+from rich import box
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+
+
+
+datasets.logging.disable_progress_bar()
+datasets.logging.set_verbosity_error()
+
+logging.getLogger("datasets").setLevel(logging.ERROR)
+logging.getLogger("huggingface_hub").setLevel(logging.ERROR)
+
+console = Console()
+
+scores, query = scoring()
+
+
+def display_result():
+    top_thirty = []
+    
+    console.print(Panel(
+        f"[bold magenta]「 QUERY 」[/bold magenta] [bold bright_cyan]{query.upper()}[/bold bright_cyan]",
+        border_style= "magenta",
+        subtitle= "[pink1]HERES WHAT WE FOUND[/pink1]",
+    ))
+
+    table = Table(
+        box= box.DOUBLE_EDGE,
+        border_style="magenta",
+        header_style="bold magenta",
+        show_lines=True
+    )
+
+    table.add_column("【 SN 】", style="pink1", justify="center")
+    table.add_column("【 NAME 】", style="white")
+    table.add_column("【 SCORE 】", style="bold yellow", justify="center")
+    table.add_column("【 SOURCE 】", style="cyan", justify="center")
+
+    for i, dataset in enumerate(scores[:30], 1):
+
+        source = "🤗 HF" if dataset["from"] == "Hugging Face" else "📊 Kaggle"
+
+        score = dataset["score"]
+
+        score_color = "green" if score >= 7 else "yellow" if score >= 4 else "red"
+        
+        table.add_row(
+            f"[pink1]#{i}[/pink1]",
+            dataset["name"],
+            f"[{score_color}]{score:.2f}[/{score_color}]",
+            source
+        )
+        top_thirty.append({
+            "index": i,
+            "name": dataset["name"],
+            "source": dataset["from"]
+        })
+
+    console.print(table)
+    console.print(Panel("[magenta]・・・ Search Completed・・・[/magenta]", border_style="magenta"))
+
+    return top_thirty
+
+
+def preview():
+
+    dataset = display_result()
+
+    heads_data = []
+
+    time.sleep(3)
+
+    console.print(Panel(
+        "[magenta]PREVIEW WHAT YOU LIKE [/magenta]",
+        border_style="magenta",
+        subtitle="[pink1]Enter Like This(Enter SN For Preview: 1, 2, 3, ...)[/pink1]"
+    ))
+
+    while True:
+
+        with console.status("[magenta]Setting Up...[/magenta]", spinner="aesthetic"):
+            time.sleep(1.5)
+
+        user_choice = Prompt.ask("\n [bold magenta]Enter SN For Preview: [/bold magenta]")
+        try:
+            indexes = [int(x.strip()) for x in user_choice.split(",")]
+            if any(i<1 or i>len(dataset) for i in indexes):
+                raise ValueError
+            
+            break
+            
+        except:
+            console.print(Panel("[magenta] Error! Invalid Input. Try Again! [/magenta]", border_style="bold red", box=box.DOUBLE))
+
+
+    for i in indexes:
+        for data in dataset:
+            with console.status("[magenta]loading dataset preview...[/magenta]", spinner="aesthetic"):
+
+                if i == data["index"]:
+                    if data["source"] == "Hugging Face":
+
+                        try:
+                            dataset_hugging =  load_dataset(data["name"], split="train")
+
+                        except Exception as e:
+
+                            error = str(e)
+
+                            if "Config name is missing" in error:
+                                configs = re.findall(r"'(\w+)'", error)
+
+                                if configs:
+
+                                    try:
+                                        dataset_hugging = load_dataset(data["name"], configs[0], split="train")
+                                    except:
+                                        console.print(Panel(f"[magenta] Cannot Preview [/magenta]", border_style="bold red", box=box.DOUBLE))
+                                        break
+
+                            else:
+                                console.print(Panel(f"[magenta] Cannot Preview: {str(e)[:100]} [/magenta]", border_style="bold red", box=box.DOUBLE))
+                                break
+                        df = dataset_hugging.to_pandas().head(10)
+
+                        table = Table(
+                            title = f"「 Preview 」 {data['name']} | {len(dataset_hugging)} total rows",
+                            box = box.DOUBLE_EDGE,
+                            border_style= "cyan",
+                            header_style= "bold bright_cyan",
+                            show_lines=True
+                        )
+
+                        for col in df.columns:
+                            table.add_column(f"【{col}】", style= "white", overflow="fold")
+                        
+                        for _, row in df.iterrows():
+                            table.add_row(*[str(val)[:50] + "..." if len(str(val)) > 50 else str(val) for val in row])
+                        
+                        console.print(table)
+
+                    elif data["source"] == "Kaggle":
+                        try:
+                            files = api.dataset_list_files(data["name"]).files
+                        except Exception as e:
+                            console.print(Panel(f"[magenta] Cannot Preview: {str(e)[:100]} [/magenta]", border_style="bold red", box=box.DOUBLE))
+                            break
+
+                        table = Table(
+                            title=f"「 Files 」 {data['name']}",
+                            box=box.DOUBLE_EDGE,
+                            border_style="cyan",
+                            header_style="bold bright_cyan",
+                            show_lines=True
+                        )
+
+                        table.add_column("【 FILE 】", style="white")
+                        table.add_column("【 SIZE 】", style="magenta", justify="right")
+
+                        for f in files:
+                            size = f"{f.total_bytes / 1024:.1f} KB" if f.total_bytes < 1_000_000 else f"{f.total_bytes / 1_000_000:.1f} MB"
+                            table.add_row(f.name, size)
+
+                        console.print(table)
+
+                        
+
+
+
+
+
+            
+
+
+
+
+
+preview()
