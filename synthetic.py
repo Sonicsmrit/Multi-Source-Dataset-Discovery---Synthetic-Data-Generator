@@ -116,6 +116,12 @@ def generate_synthetic(f, model, epoche):
 
         metadata = SingleTableMetadata()
 
+        for col in df.select_dtypes(['object']).columns:
+            df[col] = df[col].astype(str)
+        
+        for col in df.select_dtypes(include=['int64','float64']).columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+
         metadata.detect_from_dataframe(df)
 
         df = df.sample(n=min(10000, len(df)), random_state=42)

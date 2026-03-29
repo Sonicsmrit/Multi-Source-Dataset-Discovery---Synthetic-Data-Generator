@@ -1,4 +1,4 @@
-import json, time, os, sys, re
+import time, os, re
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
@@ -13,8 +13,6 @@ from rich.table import Table
 from rich.prompt import Prompt
 from rich import box
 import pandas as pd
-from huggingface_hub import snapshot_download
-
 
 datasets.logging.disable_progress_bar()
 datasets.logging.set_verbosity_error()
